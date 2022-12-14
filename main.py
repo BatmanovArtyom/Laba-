@@ -15,3 +15,6 @@ class Calculator:
   def divide(self, a, b):
     if b != 0:
       return a/b
+  def mod(self,a,b):
+    return a%b
+  
